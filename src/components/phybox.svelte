@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte'
-    import SimulationContext from '../phybox/base/SimulationContext'
+    import { SimulationContext } from '../../lib/phybox-core/src/index'
 
     let canvas: HTMLCanvasElement;
     let simContext : SimulationContext;
